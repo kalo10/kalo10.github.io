@@ -1,0 +1,164 @@
+body{
+    background: linear-gradient(#333, #444) fixed;
+  }
+  
+  #game-area{
+    background: black;
+    position: absolute;
+    height: 600px;
+    width: 800px;
+    left: 200px;
+  }
+  
+  
+  #turtle-body{
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    width: 150px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  
+  
+  
+  
+  #box1{
+    grid-column: 2 / 3;
+    border-radius: 5px 5px 0 0;
+    border: 2px solid white;
+  }
+  
+  #box2{
+     grid-column:  3 / 4;
+    grid-row:  2 / 3;
+    border-radius: 0 5px 5px 0;
+    border: 2px solid white;
+  }
+  
+  #box3{
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+    border-radius: 0 0 5px 5px;
+    border: 2px solid white;
+  }
+  
+  #box4{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid white;
+  }
+  
+  #white{
+    background: white;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border-radius: 5px;
+  }
+  
+  .change{
+    width: 50px;
+    font-size: 12px;
+    padding-right: 10px;
+    border: 0;
+  }
+  
+  .dodgerblue{
+    background: dodgerblue;
+  }
+  
+  .green{
+    background: green;
+  }
+  
+  .orange{
+    background: orange;
+  }
+  
+  .purple{
+    background: purple;
+  }
+  
+  #ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 355px;
+    top: -50px;
+    border: 2px solid white;
+  }
+  
+  #ball-maker{
+    background: white;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 325px;
+    top: -10px;
+    border-radius: 0 0 50% 50%;
+  }
+  
+  
+  .ball-anim{
+    animation-name: falldown;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes falldown{
+    0%{
+      top: -50px;
+    }
+    
+    100%{
+      top: 396px; 
+    }
+  }
+  
+  h1{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: 220px;
+    left: 250px;
+  }
+  
+  
+  #score-board{
+    background: rgb(91, 0, 0);
+    position: absolute;
+    top: 20px;
+    right: 0;
+     width: 150px;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid red;
+  }
+  
+  
+  #start{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  #shine{
+    background: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    opacity: 0.5;
+  }
+  
+  
+  
