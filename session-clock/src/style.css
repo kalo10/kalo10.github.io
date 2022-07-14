@@ -1,0 +1,132 @@
+body{
+    background: linear-gradient(0,  rgb(45, 45, 90), rgb(66, 66, 125)) fixed;
+  }
+  
+  #remote{
+    background: #111;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    row-gap: 2px;
+    padding: 2px;
+    margin-left: 30%;
+  }
+  
+  #display-board{
+    background: #111;
+    border-radius: 10px 10px 0 0;
+    color: #f00;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 21px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 3px;
+    row-gap: 3px;
+  }
+  
+  #time-display{
+    background: #4d0000;
+    background: #033;
+    grid-row: 1 / 3;
+    border-radius: 10px 0 0 0;
+    font-size: 36px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  #session-display{
+    background: #4d0000;
+    grid-row: 1 / 2;
+    border-radius: 0 10px 0 0;
+    font-size: 12px;
+    text-align: center;
+    background: #033;
+    padding-top: 5px;
+    
+  }
+  
+  #break-display{
+    background: #4d0000;
+    grid-row: 2 / 3;
+    font-size: 12px;
+    text-align: center;
+    background: #033;
+    padding-top: 5px;
+  }
+  
+  #button-pad{
+    background: white;
+    border-radius: 0 0 10px 10px;
+    background: #222;
+  }
+  
+  #session-display span, #break-display span{
+    font-size: 16px;
+  }
+  
+  #play-button, #reset-button, #pause-button{
+    background: transparent;
+    border: 0;
+    color: red;
+    position: absolute;
+    top: 150px;
+    transform: scale(3);
+    left: 50px;
+  }
+  
+  #reset-button:hover, #play-button:hover{
+    transform: scale(2.8);
+    opacity: 0.8;
+  }
+  
+  #reset-button{
+    left: 200px;
+  }
+  
+  #change-session, #change-break{
+    position: absolute;
+    top: 240px;
+    color: red;
+    left: 35px;
+    border: 2px solid red;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+    width: 210px;
+    text-align: left;
+  }
+  
+  #change-break{
+    top: 300px;
+  }
+  
+  .plus-button{
+    color: #333;
+    margin-left: 20px;
+  }
+  
+  #pause-button{
+    opacity: 0;
+  }
+  
+  #play-button{
+    opacity: 1;
+  }
+  
+  .minus-button{
+    margin-right: 0px;
+  }
+  
+  #session-length{
+    font-size: 16px;
+  }
+  
+  .yellow-text{
+    color: yellow;
+  }
+  
+  .red-text{
+    color: red;
+  }

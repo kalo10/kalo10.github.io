@@ -1,4 +1,4 @@
-export default function convertToRoman(num) {
+export default function toRoman(num) {
     function getDigit(digit, pos){
       let noOfDigits = [[], ['I', 'V'], ['X', 'L'], ['C', 'D'], ['M']];
       let romDigit = "";

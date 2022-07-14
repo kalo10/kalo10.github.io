@@ -1,0 +1,39 @@
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="/session-clock/src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="clock-body">
+        <div id="remote">
+            <div id="display-board">
+                <div id="time-display"><span id="min">25</span> : <span id="sec">00</span></div>
+                <div id="session-display">session<br><span id="session-length">25</span> : <span>00</span></div>
+                <div id="break-display">break <br><span id="break-length">05</span> : <span>00</span></div>
+            </div> 
+            <div id="button-pad">
+                <button id="play-button"><i class="fas fa-play-circle"></i></button>
+                
+                <button id="reset-button"><i class="fas fa-redo"></i></button>
+                <div id="change-session">SET SESSION <button class="plus-button" id="session-plus"><i class="fas fa-plus"> </i></button>
+                    <button class="minus-button" id="session-minus"><i class="fas fa-minus"></i></button>
+                </div>
+                
+                <div id="change-break">SET BREAK  <button class="plus-button" id="break-plus"><i class="fas fa-plus"></i></button>
+                    <button class="minus-button" id="break-minus"><i class="fas fa-minus"></i></button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+
+<script src="/session-clock/src/index.js"></script>
+
+</html>

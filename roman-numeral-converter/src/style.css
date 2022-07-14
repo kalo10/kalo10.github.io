@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: gray;
+    margin-top: 100px;
+}
+
+.main-container {
+    background: gray;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+select {
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.main-container input {
+    font-size: 20px;
+}
+
+#box1, #box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#box1 input {
+    margin: 20px;
+}
+
+#box2 {
+    margin-top: 20px;
+}
+
+#box2 input {
+    margin: 20px;
+}
+
+button {
+    margin-left: 43%;
+}
+
+#ans {
+    width: 400px;
+    background: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
