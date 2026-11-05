@@ -4,31 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | My Portfolio</title>
+    <style>
+        body {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+            background: #fff;
+            line-height: 1.7;
+        }
+        h1, h2 {
+            font-family: Georgia, "Times New Roman", serif;
+            line-height: 1.2;
+        }
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 0;
+        }
+        header p { margin-top: 6px; }
+        nav {
+            margin: 28px 0;
+            padding: 14px 0;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+        nav a {
+            color: #000;
+            text-decoration: none;
+            margin-right: 22px;
+        }
+        nav a:hover { text-decoration: underline; }
+        main { padding: 28px 0; min-height: 45vh; }
+        footer {
+            border-top: 1px solid #000;
+            padding-top: 12px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-<header>
-    <h1>My Portfolio</h1>
-    <p>Mechanical Engineer | Robotics Enthusiast</p>
-    <nav>
-    <a href="index.html">Home</a> |
-    <a href="education.html">Education</a> |
-    <a href="skills.html">Skills</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="contact.html">Contact</a>
-</nav>
-</header>
-<hr>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Mechanical Engineer · Robotics Enthusiast</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<main>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am a mechanical engineer passionate about robotics,
-        control systems, and autonomous systems.</p>
-        <p>I enjoy designing mechanisms, developing control algorithms,
-        and bringing robotic systems to life through simulation and experiments.</p>
-    </section>
-</main>
-<hr>
-<footer><p>&copy; 2026 My Portfolio</p></footer>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a mechanical engineer passionate about robotics,
+                control systems, and autonomous systems.
+            </p>
+            <p>
+                I enjoy designing mechanisms, developing control algorithms,
+                and bringing robotic systems to life through simulation
+                and experimentation. My interests lie at the intersection
+                of mechanical design, robotics, and intelligent control.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio</p>
+    </footer>
 </body>
 </html>
