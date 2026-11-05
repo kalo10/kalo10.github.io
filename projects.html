@@ -4,23 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | My Portfolio</title>
+    <style>
+        body {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+            background: #fff;
+            line-height: 1.7;
+        }
+        h1, h2, h3 {
+            font-family: Georgia, "Times New Roman", serif;
+            line-height: 1.2;
+        }
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 0;
+        }
+        header p { margin-top: 6px; }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px;
+            margin: 28px 0;
+            padding: 14px 0;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+        nav a {
+            color: #000;
+            text-decoration: none;
+        }
+        nav a:hover { text-decoration: underline; }
+        main { padding: 24px 0; min-height: 45vh; }
+        article { margin: 28px 0; }
+        footer {
+            border-top: 1px solid #000;
+            padding-top: 12px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-<header>
-    <h1>My Portfolio</h1>
-    <p>Mechanical Engineer | Robotics Enthusiast</p>
-    <nav>
-    <a href="index.html">Home</a> |
-    <a href="education.html">Education</a> |
-    <a href="skills.html">Skills</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="contact.html">Contact</a>
-</nav>
-</header>
-<hr>
-
-<main>
-    <h2>Projects</h2>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Mechanical Engineer · Robotics Enthusiast</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Projects</h2>
     <article>
         <h3>Omnidirectional Mobile Robot</h3>
         <p>Developed and simulated a three-wheeled omnidirectional mobile robot using ROS 2 and Gazebo.</p>
@@ -37,8 +76,9 @@
         <p>Designed and analyzed mechanical mechanisms using 3D CAD software.</p>
         <p><strong>Technologies:</strong> Onshape, Mechanical Design</p>
     </article>
-</main>
-<hr>
-<footer><p>&copy; 2026 My Portfolio</p></footer>
+    </main>
+    <footer>
+        <p>&copy; 2026 My Portfolio</p>
+    </footer>
 </body>
 </html>
